@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">InsuranceGame</string>
+    <string name="text_ccc">我就是试试看</string>
+    <string name="dialog" id="001">    皇天不负有心人，经历过头悬梁锥刺股的你考上了国内某著名大学，接着去了海外著名大学攻读MBA，学成归来的你想要在祖国大展一番身手。听闻国家出台政策要大力发展A城的经济，于是你怀揣着梦想来到了这座充满机遇的城市。
+
+
+     昨晚和A城的创业项目负责人小B谈了很久，对你的简历（和个人魅力♂）十分满意的小B决定为你拉一份初始投资。这份资金对你而言意义重大，它决定了你是否能实现自己的梦想——建设一家属于自己的保险公司。</string>
+    <string name="dialog1"><xliff:g>%1$s</xliff:g></string>
+    <string name="data">整数型:%1$d，浮点型：%2$.2f，字符串:%3$s</string>
+</resources>
+

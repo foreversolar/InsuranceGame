@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="insurance">
+        <item>养老险</item>
+        <item>车险</item>
+        <item>秃头险</item>
+        <item>人身意外险</item>
+    </string-array>
+</resources>

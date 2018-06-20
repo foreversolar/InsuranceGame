@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="com.example.captain.insurancegame.MainActivity">-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="18dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/story"
+    >
+
+
+    <ImageButton
+        android:id="@+id/ImageButton0"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/textView16"
+        android:layout_marginBottom="92dp"
+        android:layout_marginEnd="112dp"
+        android:layout_toStartOf="@+id/textView16"
+        android:background="@drawable/button11"
+        android:scaleType="fitXY"
+      />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignEnd="@+id/ImageButton0"
+        android:layout_marginEnd="20dp"
+        android:text="新游戏"
+        android:textColor="#FF4081"
+        android:textSize="24sp" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/ImageButton0"
+        android:layout_alignTop="@+id/ImageButton0"
+        android:layout_marginStart="174dp"
+        android:background="@drawable/button11"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton2"
+        android:layout_alignEnd="@+id/imageButton2"
+        android:layout_marginBottom="33dp"
+        android:layout_marginEnd="11dp"
+        android:text="继续游戏"
+        android:textColor="#FF4081"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="10dp"
+        android:text="Copyright © SCU.lscw.All Rights Reserved." />
+
+</RelativeLayout>
